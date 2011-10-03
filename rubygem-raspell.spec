@@ -4,7 +4,7 @@
 Summary:	An interface binding for the Aspell spelling checker
 Name:		rubygem-%{rbname}
 
-Version:	1.2
+Version:	1.2.2
 Release:	1
 Group:		Development/Ruby
 License:	GPLv2+
@@ -36,9 +36,6 @@ Documents, RDoc & RI documentation for %{name}.
 %install
 %gem_install
 
-%clean
-rm -rf %{buildroot}
-
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
@@ -53,4 +50,3 @@ rm -rf %{buildroot}
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/test
 %{ruby_gemdir}/gems/%{rbname}-%{version}/test/*.rb
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
-
