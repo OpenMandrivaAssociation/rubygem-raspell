@@ -4,8 +4,8 @@
 Summary:	An interface binding for the Aspell spelling checker
 Name:		rubygem-%{rbname}
 
-Version:	1.2.2
-Release:	2
+Version:	1.3
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+
 URL:		http://blog.evanweaver.com/files/doc/fauna/raspell/
@@ -14,7 +14,6 @@ Requires:	aspell
 BuildRequires:	aspell-devel
 BuildRequires:	rubygems >= 1.2
 BuildRequires:	ruby-devel
-BuildRequires:	rubygem(rake)
 
 %description
 An interface binding for the Aspell spelling checker.
