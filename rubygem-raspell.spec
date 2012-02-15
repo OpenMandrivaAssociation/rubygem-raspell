@@ -10,6 +10,7 @@ Group:		Development/Ruby
 License:	GPLv2+
 URL:		http://blog.evanweaver.com/files/doc/fauna/raspell/
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
+Patch0:		raspell-1.3-format-string-fixes.patch
 Requires:	aspell
 BuildRequires:	aspell-devel
 BuildRequires:	rubygems >= 1.2
@@ -28,6 +29,7 @@ Documents, RDoc & RI documentation for %{name}.
 
 %prep
 %setup -q
+%patch0 -p1 -b .str_fmt~
 
 %build
 %gem_build -f test
