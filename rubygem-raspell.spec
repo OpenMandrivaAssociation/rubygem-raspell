@@ -51,3 +51,21 @@ Documents, RDoc & RI documentation for %{name}.
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/test
 %{ruby_gemdir}/gems/%{rbname}-%{version}/test/*.rb
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3-1
++ Revision: 774512
+- README file has been renamed README.rdoc..
+- format string fixes (P0)
+- new version
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Mon Oct 03 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.2.2-1
++ Revision: 702535
+- new version
+- imported package rubygem-raspell
+
+
+* Sun Mar 13 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.2-1
+- Initial package
