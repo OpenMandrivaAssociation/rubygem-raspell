@@ -5,7 +5,7 @@ Summary:	An interface binding for the Aspell spelling checker
 Name:		rubygem-%{rbname}
 
 Version:	1.3
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+
 URL:		http://blog.evanweaver.com/files/doc/fauna/raspell/
