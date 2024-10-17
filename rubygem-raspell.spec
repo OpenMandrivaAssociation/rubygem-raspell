@@ -8,7 +8,7 @@ Version:	1.3
 Release:	2
 Group:		Development/Ruby
 License:	GPLv2+
-URL:		http://blog.evanweaver.com/files/doc/fauna/raspell/
+URL:		https://blog.evanweaver.com/files/doc/fauna/raspell/
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 Patch0:		raspell-1.3-format-string-fixes.patch
 Requires:	aspell
